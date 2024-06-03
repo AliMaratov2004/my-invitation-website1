@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow: auto; /* Изменено для разрешения прокрутки */
+}
+
+.background {
+    background-image: url('Ecology.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%; /* Изменено для разрешения прокрутки */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 20px; /* Добавлен отступ снизу */
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.title-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0;
+    text-align: left;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: #4CAF50; /* Зеленый цвет */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.separator {
+    border: 0;
+    height: 16px; /* Толще линия */
+    background-color: #4CAF50; /* Цвет листьев */
+    width: 100%;
+    margin: 20px 0; /* Отступы сверху и снизу */
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 100%; /* Изменено на 100% */
+    margin-top: 20px;
+    text-align: left;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.content ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.content li {
+    margin: 5px 0;
+}
+
+a {
+    color: #00FFFF; /* Цвет ссылки */
+    text-decoration: none; /* Убирает подчеркивание */
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивает ссылку при наведении */
+}
